@@ -1,0 +1,133 @@
+.container {
+  margin: 0 auto;
+  width: 720px;
+}
+
+header {
+  background-color: black;
+}
+
+#logo {
+  display: block;
+  margin: 0 auto;
+}
+
+nav {
+
+text-decoration: none;
+margin: 20px;
+
+
+
+}
+
+.menu {
+list-style: none;
+text-decoration: none;
+/*border: 1px solid;*/
+border-radius: 10px;
+padding: 15px;
+background: #E1E1E1; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(white, #E1E1E1); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white, #E1E1E1); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white, #E1E1E1); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white, #E1E1E1); /* Standard syntax (must be last) */
+position: center;
+
+}
+
+
+ul.menu li {
+display: inline;
+padding: 15px;
+margin: 1px;
+margin-left: 1px;
+margin-right: 12px;
+padding-right:15px;
+padding-left: 15px;
+
+}
+
+#obj1 {
+	
+	border-right: solid 3px white; 
+	padding-right:30px;
+	padding-left: 20px;
+}
+
+#obj2 {
+	
+	border-right: solid 3px white; 
+	padding-right:20px;
+	padding-left: 20px;
+}
+
+#obj3 {
+	
+	border-right: solid 3px white; 
+}
+
+#obj4 {
+	
+	border-right: solid 3px white; 
+	padding-right:40px;
+	padding-left: 5px;
+}
+
+
+
+
+ul.submenu {
+
+	display: none;
+	position: absolute;
+	margin-top: 20px;
+	padding-right:55px;
+	padding-left: 55px;
+
+}
+/*ul.submenu a {
+
+	display: block;
+}*/
+
+.submenu li {
+	
+	background: #E1E1E1; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(white, #E1E1E1); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white, #E1E1E1); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white, #E1E1E1); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white, #E1E1E1); /* Standard syntax (must be last) */
+    
+
+	/*position: absolute;*/
+	
+}
+
+
+ul li:nth-child(1):hover + ul.submenu {
+	display: block;
+    margin-top: 30px;
+	padding: 0px;
+	margin-left: 1px;
+	margin-right: 0px;
+	
+
+}
+
+
+/*#menu li:nth-child(1):hover .submenu li { 
+   display: block;
+}*/
+
+a {
+
+	text-decoration: none;
+	color: black;
+	text-align: center;
+
+}
+
+
+
+
